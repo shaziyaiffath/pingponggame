@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://balakrishnan11.github.io/Project-140/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+        <script src="./index_files/jquery.min.js.download"></script>
+        <script src="./index_files/bootstrap.min.js.download"></script>
+     
+        <link rel="stylesheet" href="./index_files/style.css">
+        <script src="./index_files/ml5.min.js.download"></script><style type="text/css" data-glamor=""></style>
+        <script src="./index_files/p5.js.download"></script>
+        <script src="./index_files/p5.sound.min.js.download"></script>   
+
+    </head>
+    <body background="./index_files/background1.jpg">
+        <center>
+            <div class="btn btn-warning heading">
+                <h3>AI PING PONG GAME</h3>
+                <button class="btn btn-warning" data-toggle="modal" data-target="#my_modal">Instructions</button>
+            </div>
+            <button class="btn btn-success" id="start_button" onclick="start()">Play Game</button>
+            <br>
+            <h3 id="status" class="btn btn-danger"></h3>
+            <br><br>
+            <div id="canvas"><canvas id="defaultCanvas0" class="p5Canvas" width="700" height="600" style="width: 700px; height: 600px;"></canvas></div>
+            <br><br>
+            <button id="restart_button" class="btn btn-danger" onclick="restart()">Restart</button>
+            <br>
+            <div id="my_modal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">×</button>
+                            <h3>Instructions</h3>
+                        </div>
+                        <div class="modal-body">
+                            <ol>
+                                <li>First keep your laptop screen straight</li>
+                                <li>Move yourself approximately 3-4 feet away from the laptop</li>
+                                <li>Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist</li>
+                                <li>Now press the play button, and again move yourself 3-4 feet away from laptop</li>
+                                <li>The red paddel is your paddel, that will move as per the movement of your right wrist</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="footer">
+                Developed By : Whitehat JR Team
+            </h4>
+        </center>
+        <script src="./index_files/main.js.download"></script>
+    
+        <video playsinline="" crossorigin="anonymous" width="700" height="600" style="width: 700px; height: 600px; display: none;"></video></body></html>
